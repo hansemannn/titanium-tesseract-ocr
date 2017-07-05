@@ -1,4 +1,4 @@
-# TesseractOCR in Titanium
+# 🔠 TesseractOCR in Titanium
 Use the native TesseractOCR iOS-framework in Appcelerator Titanium.
 
 | Input | Output |
