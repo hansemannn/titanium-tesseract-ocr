@@ -9,6 +9,17 @@ Use the native TesseractOCR iOS-framework in Appcelerator Titanium.
 - [x] Titanium SDK 6.0.0 or later
 - [x] A TesseractOCR language-file placed in `tessdata/*.traineddata`
 
+## API's
+
+### Methods
+
+#### recognize(args)
+- image (String - _Required_)
+- callback (Function - _Required_)
+- charWhitelist (String - _Optional_)
+- rect (Object - _Optional_)
+  - x, y, width, height
+
 ## Example
 ```js
 var Tesseract = require('ti.tesseract');
