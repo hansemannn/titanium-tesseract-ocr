@@ -1,6 +1,10 @@
 # TesseractOCR in Titanium
 Use the native TesseractOCR iOS-framework in Appcelerator Titanium.
 
+| Input | Output |
+|-------|--------|
+|<img src="./example/image_sample_tr.png" width="300" alt="Example Image" />|<img src="https://abload.de/img/simulatorscreenshot04gtsct.png" width="300" />|
+
 ## Requirements
 - [x] Titanium SDK 6.0.0 or later
 - [x] A TesseractOCR language-file placed in `tessdata/*.traineddata`
