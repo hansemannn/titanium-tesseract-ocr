@@ -15,4 +15,4 @@ name: ti.tesseract
 moduleid: ti.tesseract
 guid: bd15c466-99f8-4589-9bb9-b5f22526a158
 platform: iphone
-minsdk: 6.1.1.GA
+minsdk: 6.0.0.GA
