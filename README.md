@@ -13,12 +13,12 @@ Use the native TesseractOCR iOS-framework in Appcelerator Titanium.
 
 ### Methods
 
-#### recognize(args)
-- image (String - _Required_)
-- callback (Function - _Required_)
-- charWhitelist (String - _Optional_)
-- rect (Object - _Optional_)
-  - x, y, width, height
+#### `recognize(args)`
+- `image` (String - _Required_)
+- `callback` (Function - _Required_)
+- `charWhitelist` (String - _Optional_)
+- `rect` (Object - _Optional_)
+  - `x`, `y`, `width`, `height`
 
 ## Example
 ```js
