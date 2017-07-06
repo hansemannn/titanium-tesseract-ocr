@@ -367,8 +367,6 @@
 		DBDD10E61F0C955300371BA1 /* wordseg.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDD0F8B1F0C955200371BA1 /* wordseg.h */; };
 		DBDD10E71F0C955300371BA1 /* workingpartset.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDD0F8C1F0C955200371BA1 /* workingpartset.h */; };
 		DBDD10E81F0C955300371BA1 /* xform2d.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDD0F8D1F0C955200371BA1 /* xform2d.h */; };
-		DBDD10E91F0C955300371BA1 /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDD0F8F1F0C955200371BA1 /* liblept.a */; };
-		DBDD10EA1F0C955300371BA1 /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDD0F901F0C955200371BA1 /* libtesseract_all.a */; };
 		DBDD10EB1F0C955300371BA1 /* TesseractOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDD0F911F0C955200371BA1 /* TesseractOCR.h */; };
 		DBDD10EC1F0C955300371BA1 /* UIImage+G8Filters.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDD0F921F0C955200371BA1 /* UIImage+G8Filters.h */; };
 		DBDD10ED1F0C955300371BA1 /* UIImage+G8Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDD0F931F0C955200371BA1 /* UIImage+G8Filters.m */; };
@@ -735,14 +733,14 @@
 		DBDD0F8B1F0C955200371BA1 /* wordseg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordseg.h; sourceTree = "<group>"; };
 		DBDD0F8C1F0C955200371BA1 /* workingpartset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = workingpartset.h; sourceTree = "<group>"; };
 		DBDD0F8D1F0C955200371BA1 /* xform2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xform2d.h; sourceTree = "<group>"; };
-		DBDD0F8F1F0C955200371BA1 /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
-		DBDD0F901F0C955200371BA1 /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
 		DBDD0F911F0C955200371BA1 /* TesseractOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesseractOCR.h; sourceTree = "<group>"; };
 		DBDD0F921F0C955200371BA1 /* UIImage+G8Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+G8Filters.h"; sourceTree = "<group>"; };
 		DBDD0F931F0C955200371BA1 /* UIImage+G8Filters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+G8Filters.m"; sourceTree = "<group>"; };
 		DBDD0F941F0C955200371BA1 /* UIImage+G8FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+G8FixOrientation.h"; sourceTree = "<group>"; };
 		DBDD0F951F0C955200371BA1 /* UIImage+G8FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+G8FixOrientation.m"; sourceTree = "<group>"; };
 		DBDD10F01F0C9BF500371BA1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		DBF1F3271F0EC9B9000D0100 /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
+		DBF1F3281F0EC9B9000D0100 /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -751,9 +749,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBDD10F11F0C9BF500371BA1 /* CoreImage.framework in Frameworks */,
-				DBDD10E91F0C955300371BA1 /* liblept.a in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				DBDD10EA1F0C955300371BA1 /* libtesseract_all.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -812,6 +808,8 @@
 		DBDD0E371F0C955200371BA1 /* TesseractOCR */ = {
 			isa = PBXGroup;
 			children = (
+				DBF1F3271F0EC9B9000D0100 /* liblept.a */,
+				DBF1F3281F0EC9B9000D0100 /* libtesseract_all.a */,
 				DBDD0E381F0C955200371BA1 /* G8Constants.h */,
 				DBDD0E391F0C955200371BA1 /* G8RecognitionOperation.h */,
 				DBDD0E3A1F0C955200371BA1 /* G8RecognitionOperation.m */,
@@ -823,7 +821,6 @@
 				DBDD0E401F0C955200371BA1 /* G8TesseractParameters.h */,
 				DBDD0E411F0C955200371BA1 /* G8TesseractParameters.m */,
 				DBDD0E421F0C955200371BA1 /* include */,
-				DBDD0F8E1F0C955200371BA1 /* lib */,
 				DBDD0F911F0C955200371BA1 /* TesseractOCR.h */,
 				DBDD0F921F0C955200371BA1 /* UIImage+G8Filters.h */,
 				DBDD0F931F0C955200371BA1 /* UIImage+G8Filters.m */,
@@ -1184,15 +1181,6 @@
 				DBDD0F8D1F0C955200371BA1 /* xform2d.h */,
 			);
 			path = tesseract;
-			sourceTree = "<group>";
-		};
-		DBDD0F8E1F0C955200371BA1 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				DBDD0F8F1F0C955200371BA1 /* liblept.a */,
-				DBDD0F901F0C955200371BA1 /* libtesseract_all.a */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1647,6 +1635,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/TiTesseract.dst;
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1664,7 +1653,10 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Classes/TesseractOCR/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Classes/TesseractOCR/lib",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
@@ -1688,6 +1680,7 @@
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/TiTesseract.dst;
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1705,7 +1698,10 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Classes/TesseractOCR/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Classes/TesseractOCR/lib",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ti.tesseract;
