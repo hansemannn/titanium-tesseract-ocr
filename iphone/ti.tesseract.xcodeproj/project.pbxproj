@@ -739,8 +739,6 @@
 		DBDD0F941F0C955200371BA1 /* UIImage+G8FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+G8FixOrientation.h"; sourceTree = "<group>"; };
 		DBDD0F951F0C955200371BA1 /* UIImage+G8FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+G8FixOrientation.m"; sourceTree = "<group>"; };
 		DBDD10F01F0C9BF500371BA1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		DBF1F3271F0EC9B9000D0100 /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
-		DBF1F3281F0EC9B9000D0100 /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -808,8 +806,6 @@
 		DBDD0E371F0C955200371BA1 /* TesseractOCR */ = {
 			isa = PBXGroup;
 			children = (
-				DBF1F3271F0EC9B9000D0100 /* liblept.a */,
-				DBF1F3281F0EC9B9000D0100 /* libtesseract_all.a */,
 				DBDD0E381F0C955200371BA1 /* G8Constants.h */,
 				DBDD0E391F0C955200371BA1 /* G8RecognitionOperation.h */,
 				DBDD0E3A1F0C955200371BA1 /* G8RecognitionOperation.m */,

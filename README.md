@@ -16,7 +16,10 @@ Use the native TesseractOCR iOS-framework in Appcelerator Titanium.
 #### `recognize(args)`
 - `image` (String - _Required_)
 - `callback` (Function - _Required_)
-- `charWhitelist` (String - _Optional_)
+- `languages` (Array<String> - _Optional_ - Default: `eng`)
+- `charWhitelist` (Array<String> - _Optional_)
+- `charBlacklist` (Array<String> - _Optional_)
+- `engineMode` (`ENGINE_MODE_TESSERACT_ONLY`, `ENGINE_MODE_CUBE_ONLY`, `ENGINE_MODE_CUBE_COMBINED` - _Optional_)
 - `rect` (Object - _Optional_)
   - `x`, `y`, `width`, `height`
 
